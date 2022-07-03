@@ -15,6 +15,53 @@ To build and install the project follow the steps below:
 
 Install Android Studio to work on this code.
 
+
+### PhotoMonkey example JSON body  
+
+```json
+
+    {
+        "content": {
+            "type": "string"
+         },
+        "filename": {
+            "type": "string"
+        },
+        "id": {
+            "type": "string"
+        },
+        "version": {
+            "type": "string"
+        }
+    }
+
+```
+
+
+
+Example Post Recieve object. 
+
+```json
+
+{
+    "headers": {
+        "Accept-Encoding": "gzip",
+        "Host": "prod-54.somewhere.logic.azure.com",
+        "User-Agent": "Dart/2.17,(dart:io)",
+        "Content-Length": "216089",
+        "Content-Type": "application/json; charset=utf-8"
+    },
+    "body": {
+        "content": "base64 Encoded string",
+        "id": "user",
+        "filename": "PM_2022-03-24-mrpuC.jpg",
+        "version": "0.1.0"
+    }
+}
+
+```
+
+
 ## Changelog
 
  ##### [0.2.0](https://github.com/chesapeaketechnology/android-photo-monkey/releases/tag/v0.2.0) - 2022-03-11
