@@ -15,8 +15,12 @@ To build and install the project follow the steps below:
 
 Install Android Studio to work on this code.
 
-
-### PhotoMonkey example JSON body  
+### QR Code Scanner
+ The QR code scanner is available for easier one-off configuration of Photo Monkey remote URL when MDM is not used. The QR code should hold the full URL to POST photos to.
+ 
+ 
+### Example JSON body  
+If a URL is configured Photomonkey will POST a base64 encoded image to the configured url with the following parameters. 
 
 ```json
 
